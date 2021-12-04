@@ -16,8 +16,7 @@
     "outbounds": 
     [
         {"protocol": "freedom","tag": "direct","settings": {}},
-        {"protocol": "blackhole","tag": "blocked","settings": {}},
-        {"protocol": "freedom","tag": "twotag","streamSettings": {"network": "domainsocket","dsSettings": {"path": "apath","abstract": true}}}    
+        {"protocol": "blackhole","tag": "blocked","settings": {}}
     ],
     
     "routing": 
@@ -25,7 +24,6 @@
         "rules": 
         [
             {"type": "field","inboundTag": ["onetag"],"outboundTag": "twotag"},
-            {"type": "field","outboundTag": "sockstor","domain": ["geosite:tor"]},
             {"type": "field","outboundTag": "blocked","domain": ["geosite:category-ads-all"]}
         ]
     }
