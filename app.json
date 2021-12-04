@@ -13,15 +13,15 @@
         },
         "CONFIGCADDY": {
             "description": "CONFIGCADDY",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "CONFIGXRAY",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4tyy/main/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4tyy/main/xray.json"
         },
         "StoreFiles": {
             "description": "StoreFiles",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/StoreFiles"
         }
     },
     "website": "https://github.com/VduMesSi/mm4ty",
