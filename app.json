@@ -1,11 +1,11 @@
 {
-    "name": "mm4ty",
-    "keywords": ["4 tube only"],
+    "name": "mimefortubeonly",
+    "description": "about heroku",
+    "keywords": ["heroku"],
     "env": {
-
         "AUUID": {
             "description": "UUID",
-            "value": "387-501-29"
+            "value": "24-858c-242"
         },
         "CADDYIndexPage": {
             "description": "CADDYIndexPage",
@@ -13,15 +13,18 @@
         },
         "CONFIGCADDY": {
             "description": "CONFIGCADDY",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/Caddyfile"
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "CONFIGXRAY",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/xray.json"
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4tyy/main/etc/xray.json"
         },
         "StoreFiles": {
-            "description": "Storage",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/StoreFiles"
+            "description": "StoreFiles",
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/etc/StoreFiles"
         }
-    }
+    },
+    "website": "https://github.com/VduMesSi/mm4ty",
+    "repository": "https://github.com/VduMesSi/mm4ty",
+    "stack": "container"
 }
