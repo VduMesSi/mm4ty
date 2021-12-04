@@ -1,0 +1,27 @@
+{
+    "name": "mm4ty",
+    "keywords": ["4 tube only"],
+    "env": {
+
+        "AUUID": {
+            "description": "UUID",
+            "value": "387-501-29"
+        },
+        "CADDYIndexPage": {
+            "description": "CADDYIndexPage",
+            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "CONFIGCADDY",
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "CONFIGXRAY",
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/etc/xray.json"
+        },
+        "StoreFiles": {
+            "description": "Storage",
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/etc/StoreFiles"
+        }
+    }
+}
