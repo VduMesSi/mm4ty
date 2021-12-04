@@ -17,7 +17,7 @@
         },
         "CONFIGXRAY": {
             "description": "CONFIGXRAY",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4tyy/main/xray.json"
+            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/xray.json"
         },
         "StoreFiles": {
             "description": "StoreFiles",
