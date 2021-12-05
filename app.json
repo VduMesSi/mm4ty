@@ -8,15 +8,15 @@
             "value": "24-858c-242"
         },
         "CADDYIndexPage": {
-            "description": "CADDYIndexPage",
+            "description": "xxx",
             "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
         },
         "CONFIGCADDY": {
-            "description": "CONFIGCADDY",
+            "description": "yyy",
             "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/Caddyfile"
         },
         "CONFIGXRAY": {
-            "description": "CONFIGXRAY",
+            "description": "zzz",
             "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/xray.json"
         }
     },
