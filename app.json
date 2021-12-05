@@ -18,10 +18,6 @@
         "CONFIGXRAY": {
             "description": "CONFIGXRAY",
             "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/xray.json"
-        },
-        "StoreFiles": {
-            "description": "StoreFiles",
-            "value": "https://raw.githubusercontent.com/VduMesSi/mm4ty/main/StoreFiles"
         }
     },
     "website": "https://github.com/VduMesSi/mm4ty",
