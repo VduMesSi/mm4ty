@@ -1,6 +1,6 @@
 {
-    "name": "mimefortubeonly",
-    "description": "about heroku",
+    "name": "mime for tube only",
+    "description": "about heroku tube",
     "keywords": ["heroku"],
     "env": {
         "AUUID": {
