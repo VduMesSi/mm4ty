@@ -1,4 +1,3 @@
-#include <iostream>
 using namespace std;
 
 bool checkPrime(int n);
@@ -25,7 +24,6 @@ int main() {
     return 0;
 }
 
-// Check prime number
 bool checkPrime(int n) {
     int i;
     bool isPrime = true;
