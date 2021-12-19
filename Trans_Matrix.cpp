@@ -1,4 +1,3 @@
-#include <iostream>
 using namespace std;
 
 int main() {
@@ -9,7 +8,6 @@ int main() {
 
    cout << "\nEnter elements of matrix: " << endl;
 
-   // Storing matrix elements
    for (int i = 0; i < row; ++i) {
       for (int j = 0; j < column; ++j) {
          cout << "Enter element a" << i + 1 << j + 1 << ": ";
@@ -17,7 +15,6 @@ int main() {
       }
    }
 
-   // Printing the a matrix
    cout << "\nEntered Matrix: " << endl;
    for (int i = 0; i < row; ++i) {
       for (int j = 0; j < column; ++j) {
@@ -27,13 +24,11 @@ int main() {
       }
    }
 
-   // Computing transpose of the matrix
    for (int i = 0; i < row; ++i)
       for (int j = 0; j < column; ++j) {
          transpose[j][i] = a[i][j];
       }
 
-   // Printing the transpose
    cout << "\nTranspose of Matrix: " << endl;
    for (int i = 0; i < column; ++i)
       for (int j = 0; j < row; ++j) {
