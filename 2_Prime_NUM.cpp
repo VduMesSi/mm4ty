@@ -1,3 +1,4 @@
+#Atest
 using namespace std;
 
 bool checkPrime(int n);
