@@ -6,16 +6,16 @@ basicauth /$AUUID/* {
     $AUUID $MYUUID-HASH
 }
 
-@v2fly {
+@trojan {
 header Connection *Upgrade*
-header Upgrade    websocket
+header Upgrade websocket
 path /duck0ing
 }
-reverse_proxy @v2fly unix//etc/caddy/vmess
+reverse_proxy @websocket_xray_trojan unix//etc/caddy/trojan
 
 @xray {
 header Connection *Upgrade*
-header Upgrade    websocket
+header Upgrade websocket
 path /camel0ing
 }
 reverse_proxy @xray unix//etc/caddy/vless
