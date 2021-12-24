@@ -2,8 +2,8 @@
     "inbounds": 
     [
         {
-            "listen": "/etc/caddy/vmess","protocol": "vmess",
-            "settings": {"clients": [{"id": "$AUUID"}]},
+            "listen": "/etc/caddy/trojan","protocol": "trojan",
+            "settings": {"clients": [{"password":"$AUUID"}]},
             "streamSettings": {"network": "ws","wsSettings": {"path": "/duck0ing"}}
         },
         {
